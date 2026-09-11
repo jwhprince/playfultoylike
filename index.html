@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f3e9">
+  <title>дИАБЕТаРТгуу — придумываем и строим декорации</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/display.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="assets/gallery.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">К содержимому</a>
+  <header class="header wrap">
+    <a class="logo" href="#" aria-label="дИАБЕТаРТгуу — на главную"><span class="logo-symbol" aria-hidden="true">✳</span>дИАБЕТаРТгуу</a>
+    <nav aria-label="Основная навигация"><a href="#about">Кто мы</a><a href="#projects">Что делаем</a><a class="nav-contact" href="#contact">На связи <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> МАСТЕРСКАЯ БОЛЬШИХ ЗАТЕЙ</p>
+        <h1 id="hero-title">ПРИДУМАЛИ?<br><span>ПОСТРОИМ!</span></h1>
+        <p class="hero-description">Превращаем «а можно вот так?» в декорации,<br class="desktop-break"> сцены и целые миры. От первого эскиза<br class="desktop-break"> до последнего болта.</p>
+        <a class="button button-dark" href="#projects">Смотреть, что умеем <span aria-hidden="true">↘</span></a>
+        <div class="hero-note"><span class="note-arrow" aria-hidden="true">⤴</span> Серьёзно относимся к несерьёзным идеям</div>
+      </div>
+      <div class="hero-collage" aria-label="Примеры наших декораций">
+        <div class="orbit orbit-one" aria-hidden="true"></div>
+        <div class="orbit orbit-two" aria-hidden="true"></div>
+        <figure class="photo-card hero-photo-back"><img src="assets/photos/33-small.webp" alt="Сказочные декорации с большим оранжевым котом на сцене" width="720" height="480"><figcaption>ДЕЛАЕМ МИРЫ ✳</figcaption></figure>
+        <figure class="photo-card hero-photo-front"><img src="assets/photos/07-small.webp" alt="Интерьерная декорация: уютная комната с книжными полками" width="720" height="480" fetchpriority="high"><figcaption><span>ИЗ ИДЕИ — В РЕАЛЬНОСТЬ</span><span>↗</span></figcaption></figure>
+        <div class="smile-sticker" aria-hidden="true"><i></i><i></i><b></b></div>
+        <span class="collage-star" aria-hidden="true">✳</span>
+        <div class="collage-label">ДА, ЭТО МЫ<br>САМИ СОБРАЛИ.</div>
+      </div>
+      <div class="hero-bottom"><span>ПРИДУМЫВАЕМ. МАСТЕРИМ. УДИВЛЯЕМ.</span><a href="#about" aria-label="Узнать о мастерской">ЛИСТАЙТЕ НИЖЕ <span aria-hidden="true">↓</span></a></div>
+    </section>
+    <div class="ticker" aria-hidden="true"><div>ДЕКОРАЦИИ <span>✳</span> ПРОИЗВОДСТВО <span>✳</span> МОНТАЖ <span>✳</span> МАГИЯ <span>✳</span> ДЕМОНТАЖ <span>✳</span> ДЕКОРАЦИИ <span>✳</span> ПРОИЗВОДСТВО <span>✳</span></div></div>
+    <section id="about" class="about wrap">
+      <div class="section-heading"><p class="eyebrow">01 / ДАВАЙТЕ ЗНАКОМИТЬСЯ</p><span class="tiny-flower" aria-hidden="true">✳</span></div>
+      <div class="about-grid"><h2>Руки из плеч.<br>Идеи — <span class="underlined">откуда угодно.</span></h2><div class="about-copy"><p>Мы — <strong>дИАБЕТаРТгуу.</strong> Команда, которая любит придумывать необычное и умеет воплощать это в жизнь.</p><p>Создаём декорации для шоу, концертов, фестивалей, брендов и частных мероприятий. Производим, монтируем, обслуживаем во время события и разбираем, когда всё закончилось. Берём на себя всю работу с декорациями — вам остаётся наслаждаться результатом.</p></div></div>
+      <div class="service-row">
+        <article class="service service-yellow"><span class="service-icon" aria-hidden="true">✷</span><span class="service-number">01</span><h3>Придумаем</h3><p>Найдём форму для вашей идеи.<br>Даже если она пока на салфетке.</p></article>
+        <article class="service service-blue"><span class="service-icon blocks" aria-hidden="true">▰</span><span class="service-number">02</span><h3>Изготовим</h3><p>От небольшого арт-объекта<br>до целой сценической вселенной.</p></article>
+        <article class="service service-pink"><span class="service-icon" aria-hidden="true">↗</span><span class="service-number">03</span><h3>Соберём. Разберём.</h3><p>Монтаж, обслуживание, демонтаж.<br>Мы рядом на каждом этапе.</p></article>
+      </div>
+    </section>
+    <section id="projects" class="projects wrap">
+      <div class="section-heading"><p class="eyebrow">02 / МЕНЬШЕ СЛОВ, БОЛЬШЕ ДЕЛА</p><span class="handwritten">всё настоящее, всё наше ↙</span></div>
+      <div class="projects-title"><h2>Вот что мы <span>натворили.</span></h2><span class="project-count">40 фотографий<br>из нашей жизни</span></div>
+      <div class="filters" role="group" aria-label="Категории работ"></div>
+      <p class="gallery-status visually-hidden" aria-live="polite" aria-atomic="true"></p>
+      <div class="gallery" id="gallery"></div>
+      <noscript><p>Для фильтрации и просмотра всей галереи включите JavaScript. Несколько наших работ:</p><div class="gallery"><img src="assets/photos/12-small.webp" alt="Декорация съёмочной площадки"><img src="assets/photos/33-small.webp" alt="Декорации шоу"><img src="assets/photos/30-small.webp" alt="Оформление фестиваля"></div></noscript>
+      <button class="button load-more" type="button">Ещё немного магии <span aria-hidden="true">＋</span></button>
+    </section>
+    <section class="contact-section" id="contact"><div class="contact wrap"><div><p class="eyebrow">03 / ХОРОШИЕ ИДЕИ НАЧИНАЮТСЯ С «ПРИВЕТ»</p><h2>Есть безумная идея?<br><span>Нам уже нравится.</span></h2><p>Расскажите, что задумали. Вместе разберёмся,<br class="desktop-break"> как это придумать, построить и поставить.</p><button class="button button-dark" id="contact-open" type="button">Давайте знакомиться <span aria-hidden="true">↗</span></button><p class="contact-placeholder">Контакты скоро появятся. Пока здесь заглушка.</p></div><div class="contact-toy" aria-hidden="true"><div class="toy-top"><i></i><i></i></div><div class="toy-bottom">ПРИВЕТ<span>☺</span></div><span class="toy-star">✳</span></div></div></section>
+  </main>
+  <footer class="footer wrap"><a class="logo" href="#"><span class="logo-symbol" aria-hidden="true">✳</span>дИАБЕТаРТгуу</a><span>Делаем сложное. С удовольствием.</span><a href="#">Наверх ↑</a></footer>
+  <dialog class="lightbox" aria-label="Просмотр фотографий"><button class="lightbox-close icon-button" aria-label="Закрыть просмотр">✕</button><div class="lightbox-stage"><button class="lightbox-prev icon-button" aria-label="Предыдущая фотография">←</button><img class="lightbox-image" alt=""><button class="lightbox-next icon-button" aria-label="Следующая фотография">→</button></div><div class="lightbox-caption" aria-live="polite"></div></dialog>
+  <dialog class="contact-dialog"><button class="contact-close icon-button" aria-label="Закрыть">✕</button><span class="dialog-flower" aria-hidden="true">✳</span><h2>Скоро будем на связи!</h2><p>Здесь появятся телефон, почта и мессенджер нашей мастерской. Пока контакты не добавлены.</p><button class="button button-dark contact-ok">Понятно <span aria-hidden="true">↗</span></button></dialog>
+</body>
+</html>
