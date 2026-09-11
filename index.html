@@ -4,8 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f6f3e9">
-  <title>дИАБЕТаРТгуу — придумываем и строим декорации</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta name="color-scheme" content="light dark">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <script src="theme.js"></script>
+  <title>Какое-то медиа — придумываем и строим декорации</title>
+  <link rel="icon" href="assets/brand/favicon.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
   <link rel="preload" href="assets/fonts/display.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style.css">
   <script src="assets/gallery.js" defer></script>
@@ -14,7 +19,10 @@
 <body>
   <a class="skip" href="#main">К содержимому</a>
   <header class="header wrap">
-    <a class="logo" href="#" aria-label="дИАБЕТаРТгуу — на главную"><span class="logo-symbol" aria-hidden="true">✳</span>дИАБЕТаРТгуу</a>
+    <a class="logo" href="#" aria-label="Какое-то медиа — на главную"><img class="logo-symbol" src="assets/brand/logo-small.webp" alt="" width="64" height="64">Какое-то медиа</a>
+    <button class="theme-toggle" type="button" aria-label="Тёмная тема" aria-pressed="false" title="Включить тёмную тему" hidden>
+      <span class="theme-sky" aria-hidden="true"><span class="theme-star">✦</span><span class="theme-cloud"></span><span class="theme-puck"><i></i><i></i><b></b></span></span>
+    </button>
     <nav aria-label="Основная навигация"><a href="#about">Кто мы</a><a href="#projects">Что делаем</a><a class="nav-contact" href="#contact">На связи <span aria-hidden="true">↗</span></a></nav>
   </header>
   <main id="main">
@@ -31,35 +39,173 @@
         <div class="orbit orbit-two" aria-hidden="true"></div>
         <figure class="photo-card hero-photo-back"><img src="assets/photos/33-small.webp" alt="Сказочные декорации с большим оранжевым котом на сцене" width="720" height="480"><figcaption>ДЕЛАЕМ МИРЫ ✳</figcaption></figure>
         <figure class="photo-card hero-photo-front"><img src="assets/photos/07-small.webp" alt="Интерьерная декорация: уютная комната с книжными полками" width="720" height="480" fetchpriority="high"><figcaption><span>ИЗ ИДЕИ — В РЕАЛЬНОСТЬ</span><span>↗</span></figcaption></figure>
-        <div class="smile-sticker" aria-hidden="true"><i></i><i></i><b></b></div>
-        <span class="collage-star" aria-hidden="true">✳</span>
+        <div class="smile-sticker" aria-hidden="true"><svg fill="currentColor" viewBox="0 0 64 64" class="sticker-art" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+
+<g>
+
+<path d="M61,52c0-0.1,0-0.2-0.1-0.3c0,0,0,0,0-0.1c0-0.1-0.1-0.2-0.2-0.3L40.2,30.8L52.9,6.5c0.2-0.4,0.1-0.9-0.2-1.2   c-0.3-0.3-0.8-0.4-1.2-0.1L40,12.2V6c0-0.4-0.2-0.7-0.5-0.9c-0.3-0.2-0.7-0.2-1,0l-17,10c-0.1,0.1-0.2,0.1-0.2,0.2c0,0,0,0,0,0   c0,0,0,0,0,0c-0.1,0.1-0.1,0.2-0.2,0.3c0,0,0,0,0,0.1c0,0.1,0,0.2,0,0.3v4H4c-0.1,0-0.2,0-0.4,0.1c0,0-0.1,0-0.1,0   c-0.1,0-0.1,0.1-0.2,0.1c0,0-0.1,0-0.1,0.1c-0.1,0.1-0.1,0.2-0.2,0.2c0,0,0,0,0,0.1c0,0,0,0,0,0C3,20.7,3,20.9,3,21c0,0,0,0,0,0v12   c0,0.3,0.2,0.7,0.5,0.9C3.6,34,3.8,34,4,34c0.2,0,0.3,0,0.4-0.1l7.7-3.8l9.2,8.7c0,0,0,0,0.1,0.1c0.1,0.1,0.2,0.1,0.2,0.1   c0,0,0,0,0,0c0,0,0,0,0,0l17,6l12.7,4.8l7.9,8.9c0.2,0.2,0.5,0.3,0.7,0.3c0.1,0,0.2,0,0.4-0.1c0.4-0.1,0.6-0.5,0.6-0.9L61,52   C61,52,61,52,61,52z M56,49.4l-16-6.1v-9.9L56,49.4z M49.4,8.8L40,26.9V14.6L49.4,8.8z M38,14.1C38,14.1,38,14.1,38,14.1v14.7   L23.7,16.2L38,7.8V14.1z M23,21v-2.8l14.1,12.5L23,36.5V21z M21,22v13.7L6.5,22H21z M5,31.4v-8.1l5.6,5.3L5,31.4z M24.8,37.9   L38,32.5v10.1L24.8,37.9z M55.4,51.3l3.6,1.4v2.7L55.4,51.3z" />
+
+</g>
+
+</svg></div>
+        <svg fill="currentColor" viewBox="0 0 64 64" class="collage-star" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+
+<g>
+
+<path d="M48.7,17.6c-0.4-0.7-1-1.2-1.8-1.5c-0.8-0.2-1.6-0.2-2.3,0.2c-0.7,0.4-1.2,1-1.5,1.8L32.8,51.4C32.2,53.5,30.2,55,28,55   c-2.8,0-5-2.2-5-5V19h1c0.6,0,1-0.4,1-1v-2c0-1.1,0.9-2,2-2s2,0.9,2,2v2c0,0.6,0.4,1,1,1h8c0.6,0,1-0.4,1-1v-3   c0-3.2-1.3-6.3-3.6-8.6C33.1,4.2,30.1,3,26.8,3C20.3,3.1,15,8.7,15,15.4V18c0,0.6,0.4,1,1,1h1v31c0,6.1,4.9,11,11,11   c4.9,0,9.2-3.2,10.5-7.9l10.3-33.2C49.1,19.1,49,18.3,48.7,17.6z M17,15.4C17,9.7,21.4,5.1,26.8,5c2.7-0.1,5.3,1,7.2,2.9   c1.9,1.9,3,4.4,3,7.1v2h-6v-1c0-2.2-1.8-4-4-4s-4,1.8-4,4v1h-6V15.4z M47,19.3L36.6,52.6C35.5,56.4,32,59,28,59c-5,0-9-4-9-9V19h2   v31c0,3.9,3.1,7,7,7c3.1,0,5.9-2.1,6.7-5L45,18.7c0.1-0.3,0.3-0.5,0.5-0.6C45.8,18,46,18,46.3,18c0.3,0.1,0.5,0.3,0.6,0.5   C47,18.8,47,19,47,19.3z" />
+
+</g>
+
+</svg>
         <div class="collage-label">ДА, ЭТО МЫ<br>САМИ СОБРАЛИ.</div>
       </div>
       <div class="hero-bottom"><span>ПРИДУМЫВАЕМ. МАСТЕРИМ. УДИВЛЯЕМ.</span><a href="#about" aria-label="Узнать о мастерской">ЛИСТАЙТЕ НИЖЕ <span aria-hidden="true">↓</span></a></div>
     </section>
-    <div class="ticker" aria-hidden="true"><div>ДЕКОРАЦИИ <span>✳</span> ПРОИЗВОДСТВО <span>✳</span> МОНТАЖ <span>✳</span> МАГИЯ <span>✳</span> ДЕМОНТАЖ <span>✳</span> ДЕКОРАЦИИ <span>✳</span> ПРОИЗВОДСТВО <span>✳</span></div></div>
+    <div class="ticker-shell">
+      <div class="ticker" aria-hidden="true"><div class="ticker-track"><div class="ticker-group">
+        ДЕКОРАЦИИ <span>✳</span>
+        МАКЕТЫ <span>✳</span>
+        БУТАФОРИЯ <span>✳</span>
+        РЕКВИЗИТ <span>✳</span>
+        ПРОИЗВОДСТВО <span>✳</span>
+        ИЗГОТОВЛЕНИЕ <span>✳</span>
+        КОНСТРУКЦИИ <span>✳</span>
+        СЦЕНОГРАФИЯ <span>✳</span>
+        ЗАСТРОЙКА <span>✳</span>
+        МОНТАЖ <span>✳</span>
+        ДЕМОНТАЖ <span>✳</span>
+        СБОРКА <span>✳</span>
+        ПОКРАСКА <span>✳</span>
+        ФАКТУРЫ <span>✳</span>
+        РОСПИСЬ <span>✳</span>
+        БУТАФОРСКИЙ ЦЕХ <span>✳</span>
+        СТОЛЯРКА <span>✳</span>
+        МЕТАЛЛ <span>✳</span>
+        ПЕНОПЛАСТ <span>✳</span>
+        ПЛАСТИК <span>✳</span>
+        ДЕРЕВО <span>✳</span>
+        ОБЪЕКТЫ <span>✳</span>
+        ИНСТАЛЛЯЦИИ <span>✳</span>
+        ВИТРИНЫ <span>✳</span>
+        ФОТОЗОНЫ <span>✳</span>
+        СЪЁМОЧНЫЕ ДЕКОРАЦИИ <span>✳</span>
+        СЦЕНИЧЕСКИЕ ДЕКОРАЦИИ <span>✳</span>
+        НЕСТАНДАРТНЫЕ КОНСТРУКЦИИ <span>✳</span>
+        ЭСКИЗЫ <span>✳</span>
+        ПРОТОТИПЫ <span>✳</span>
+        МОДЕЛИ <span>✳</span>
+        ОБЪЁМ <span>✳</span>
+        ФОРМА <span>✳</span>
+        СВЕТ <span>✳</span>
+        ЦВЕТ <span>✳</span>
+        ПЫЛЬ <span>✳</span>
+        КРАСКА <span>✳</span>
+        СКОТЧ <span>✳</span>
+        ШУРУПОВЁРТ <span>✳</span>
+        ОПИЛКИ <span>✳</span>
+        МАГИЯ <span>✳</span>
+      </div><div class="ticker-group">
+        ДЕКОРАЦИИ <span>✳</span>
+        МАКЕТЫ <span>✳</span>
+        БУТАФОРИЯ <span>✳</span>
+        РЕКВИЗИТ <span>✳</span>
+        ПРОИЗВОДСТВО <span>✳</span>
+        ИЗГОТОВЛЕНИЕ <span>✳</span>
+        КОНСТРУКЦИИ <span>✳</span>
+        СЦЕНОГРАФИЯ <span>✳</span>
+        ЗАСТРОЙКА <span>✳</span>
+        МОНТАЖ <span>✳</span>
+        ДЕМОНТАЖ <span>✳</span>
+        СБОРКА <span>✳</span>
+        ПОКРАСКА <span>✳</span>
+        ФАКТУРЫ <span>✳</span>
+        РОСПИСЬ <span>✳</span>
+        БУТАФОРСКИЙ ЦЕХ <span>✳</span>
+        СТОЛЯРКА <span>✳</span>
+        МЕТАЛЛ <span>✳</span>
+        ПЕНОПЛАСТ <span>✳</span>
+        ПЛАСТИК <span>✳</span>
+        ДЕРЕВО <span>✳</span>
+        ОБЪЕКТЫ <span>✳</span>
+        ИНСТАЛЛЯЦИИ <span>✳</span>
+        ВИТРИНЫ <span>✳</span>
+        ФОТОЗОНЫ <span>✳</span>
+        СЪЁМОЧНЫЕ ДЕКОРАЦИИ <span>✳</span>
+        СЦЕНИЧЕСКИЕ ДЕКОРАЦИИ <span>✳</span>
+        НЕСТАНДАРТНЫЕ КОНСТРУКЦИИ <span>✳</span>
+        ЭСКИЗЫ <span>✳</span>
+        ПРОТОТИПЫ <span>✳</span>
+        МОДЕЛИ <span>✳</span>
+        ОБЪЁМ <span>✳</span>
+        ФОРМА <span>✳</span>
+        СВЕТ <span>✳</span>
+        ЦВЕТ <span>✳</span>
+        ПЫЛЬ <span>✳</span>
+        КРАСКА <span>✳</span>
+        СКОТЧ <span>✳</span>
+        ШУРУПОВЁРТ <span>✳</span>
+        ОПИЛКИ <span>✳</span>
+        МАГИЯ <span>✳</span>
+      </div></div></div>
+      <button class="ticker-pause" type="button" aria-label="Приостановить бегущую строку" aria-pressed="false" hidden><span aria-hidden="true">Ⅱ</span></button>
+    </div>
     <section id="about" class="about wrap">
-      <div class="section-heading"><p class="eyebrow">01 / ДАВАЙТЕ ЗНАКОМИТЬСЯ</p><span class="tiny-flower" aria-hidden="true">✳</span></div>
-      <div class="about-grid"><h2>Руки из плеч.<br>Идеи — <span class="underlined">откуда угодно.</span></h2><div class="about-copy"><p>Мы — <strong>дИАБЕТаРТгуу.</strong> Команда, которая любит придумывать необычное и умеет воплощать это в жизнь.</p><p>Создаём декорации для шоу, концертов, фестивалей, брендов и частных мероприятий. Производим, монтируем, обслуживаем во время события и разбираем, когда всё закончилось. Берём на себя всю работу с декорациями — вам остаётся наслаждаться результатом.</p></div></div>
+      <div class="section-heading"><p class="eyebrow">01 / ДАВАЙТЕ ЗНАКОМИТЬСЯ</p><svg fill="currentColor" viewBox="0 0 64 64" class="tiny-flower" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+
+<g>
+
+<g>
+
+<path d="M57.9,13.4l-8.1-8.1C48.4,3.8,46.4,3,44.3,3s-4.1,0.8-5.5,2.3L9,35.1c-0.2,0.2-0.3,0.4-0.3,0.7v6l-3.7,3.7    c-0.4,0.4-0.4,1,0,1.4c0.5,0.5,0.5,1.3,0,1.8c-0.1,0.1-0.3,0.2-0.5,0.3c-0.3,0.1-0.5,0.3-0.6,0.5c-0.1,0.2-0.1,0.5-0.1,0.8    l3.3,9.9c0.1,0.3,0.4,0.6,0.7,0.7c0.1,0,0.2,0,0.2,0c0.3,0,0.5-0.1,0.7-0.3l9.4-9.4h6c0.3,0,0.5-0.1,0.7-0.3l23-23l5.1,0.7    c0.3,0,0.6-0.1,0.8-0.3l4-4c1.5-1.5,2.3-3.4,2.3-5.5C60.2,16.8,59.4,14.8,57.9,13.4z M48.5,6.7l8.1,8.1c0.9,0.9,1.4,2,1.6,3.1    h-5.3l-1.3-1.3c0,0,0,0,0,0s0,0,0,0l-8.1-8.1c0,0,0,0,0,0s0,0,0,0L41,6.1C42,5.4,43.1,5,44.3,5C45.9,5,47.4,5.6,48.5,6.7z     M41.6,25c-0.1-1.4-0.6-2.8-1.7-3.9l-1-1c-1.1-1.1-2.5-1.7-3.9-1.7l7.7-7.7l6.6,6.6L41.6,25z M15.1,51.6L12.4,41l4.8-4.8l2.7,10.6    L15.1,51.6z M21.5,45.1l-2.7-10.6l4.8-4.8l0.1,0.2c0.1,0.6,0.2,1.2,0.5,1.8l2.1,8.6L21.5,45.1z M28,38.7l-0.9-3.5    c1,0.7,2.1,1.1,3.3,1.2L28,38.7z M36.4,30.3l-2.9,2.9c-1.6,1.6-4.1,1.6-5.7,0l-1-1c-0.3-0.3-0.6-0.7-0.8-1.1l-0.4-1.5    c0-1.1,0.3-2.2,1.2-3l5-5c0.8-0.8,1.8-1.2,2.8-1.2c1,0,2,0.4,2.8,1.2l1,1c1.6,1.6,1.6,4.1,0,5.7L36.4,30.3z M10.7,36.2L39.5,7.4    l1.8,1.8l-13,13L10.7,39.9V36.2z M8.5,58.1L6,50.6c0.1-0.1,0.3-0.2,0.4-0.3c1-1,1.2-2.6,0.6-3.8l3.8-3.8l2.7,10.6L8.5,58.1z     M56.5,23l-3.7,3.7L47.7,26c-0.3,0-0.6,0.1-0.8,0.3L23.8,49.3h-3.6l14.7-14.7c0,0,0,0,0,0l5-5c0,0,0,0,0,0l10.9-10.9l0.9,0.9    c0.2,0.2,0.4,0.3,0.7,0.3h5.7C57.9,21,57.4,22.1,56.5,23z" />
+
+<path d="M32.1,24.6c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4l3.2,3.2c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3    c0.4-0.4,0.4-1,0-1.4L32.1,24.6z" />
+
+<path d="M29.7,28.7c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l1.6,1.6c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3c0.4-0.4,0.4-1,0-1.4    L29.7,28.7z" />
+
+<path d="M36.2,22.2c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4l1.6,1.6c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3    c0.4-0.4,0.4-1,0-1.4L36.2,22.2z" />
+
+</g>
+
+</g>
+
+</svg></div>
+      <div class="about-grid"><h2>Руки из плеч.<br>Идеи — <span class="underlined">откуда угодно.</span></h2><div class="about-copy"><p>Мы — <strong>Какое-то медиа.</strong> Команда, которая любит придумывать необычное и умеет воплощать это в жизнь.</p><p>Создаём декорации для шоу, концертов, фестивалей, брендов и частных мероприятий. Производим, монтируем, обслуживаем во время события и разбираем, когда всё закончилось. При необходимости подготовим макет и визуализацию: покажем, как идея будет выглядеть, и согласуем детали до производства.</p></div></div>
       <div class="service-row">
-        <article class="service service-yellow"><span class="service-icon" aria-hidden="true">✷</span><span class="service-number">01</span><h3>Придумаем</h3><p>Найдём форму для вашей идеи.<br>Даже если она пока на салфетке.</p></article>
-        <article class="service service-blue"><span class="service-icon blocks" aria-hidden="true">▰</span><span class="service-number">02</span><h3>Изготовим</h3><p>От небольшого арт-объекта<br>до целой сценической вселенной.</p></article>
-        <article class="service service-pink"><span class="service-icon" aria-hidden="true">↗</span><span class="service-number">03</span><h3>Соберём. Разберём.</h3><p>Монтаж, обслуживание, демонтаж.<br>Мы рядом на каждом этапе.</p></article>
+        <article class="service reveal service-yellow"><svg viewBox="0 0 24 24" class="service-icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m13.5 22l.232-1.155a2 2 0 0 1 1.612-1.576l.812-.145c1.058-.198 1.749-1.185 1.543-2.204l-.373-1.845l1.459-1.081a.52.52 0 0 0 .081-.77l-2.114-2.256c-.245-.261-.407-.585-.524-.924c-.703-2.02-3.087-4.925-7.996-3.788c-5.155 1.193-5.445 5.743-5.155 7.182c.385 1.903 1.236 3.014 2.108 3.97c1.06 1.163 1.078 2.824.141 4.088L4.952 22M19.5 2.938V4.5m0 0v1.563m0-1.563h-1.25m1.25 0h1.25m1.25 0l-1.084-.361a1.67 1.67 0 0 1-1.055-1.055L19.5 2l-.361 1.084a1.67 1.67 0 0 1-1.055 1.055L17 4.5l1.084.361c.498.166.889.557 1.055 1.055L19.5 7l.361-1.084a1.67 1.67 0 0 1 1.055-1.055z" /></svg><span class="service-number">01</span><h3>Придумаем</h3><p>Найдём форму для вашей идеи. Если нужно — сделаем макет и визуализацию, чтобы всё стало наглядно.</p></article>
+        <article class="service reveal service-blue"><svg fill="currentColor" viewBox="0 0 64 64" class="service-icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+
+<g>
+
+<g>
+
+<path d="M50,48H26V4c0-0.6-0.4-1-1-1H14c-0.6,0-1,0.4-1,1v56c0,0.6,0.4,1,1,1h36c0.6,0,1-0.4,1-1V49C51,48.4,50.6,48,50,48z     M49,59h-2v-1c0-0.6-0.4-1-1-1s-1,0.4-1,1v1h-2v-1c0-0.6-0.4-1-1-1s-1,0.4-1,1v1h-2v-1c0-0.6-0.4-1-1-1s-1,0.4-1,1v1h-2v-1    c0-0.6-0.4-1-1-1s-1,0.4-1,1v1h-2v-1c0-0.6-0.4-1-1-1s-1,0.4-1,1v1h-2v-1c0-0.6-0.4-1-1-1s-1,0.4-1,1v1h-2v-1c0-0.6-0.4-1-1-1    s-1,0.4-1,1v1h-2v-1c0-0.6-0.4-1-1-1s-1,0.4-1,1v1h-2v-2h1c0.6,0,1-0.4,1-1s-0.4-1-1-1h-1v-2h1c0.6,0,1-0.4,1-1s-0.4-1-1-1h-1v-2    h1c0.6,0,1-0.4,1-1s-0.4-1-1-1h-1v-2h1c0.6,0,1-0.4,1-1s-0.4-1-1-1h-1v-2h1c0.6,0,1-0.4,1-1s-0.4-1-1-1h-1v-2h1c0.6,0,1-0.4,1-1    s-0.4-1-1-1h-1v-2h1c0.6,0,1-0.4,1-1s-0.4-1-1-1h-1v-2h1c0.6,0,1-0.4,1-1s-0.4-1-1-1h-1v-2h1c0.6,0,1-0.4,1-1s-0.4-1-1-1h-1v-2h1    c0.6,0,1-0.4,1-1s-0.4-1-1-1h-1v-2h1c0.6,0,1-0.4,1-1s-0.4-1-1-1h-1v-2h1c0.6,0,1-0.4,1-1s-0.4-1-1-1h-1V9h1c0.6,0,1-0.4,1-1    s-0.4-1-1-1h-1V5h9v44c0,0.6,0.4,1,1,1h24V59z" />
+
+<path d="M34,46h6c3.3,0,6-2.7,6-6V14c0,0,0-0.1,0-0.1c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.2c0,0,0-0.1-0.1-0.1l-8-10    c-0.4-0.5-1.2-0.5-1.6,0l-8,10c0,0,0,0.1-0.1,0.1c0,0.1-0.1,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2c0,0,0,0.1,0,0.1v26    C28,43.3,30.7,46,34,46z M36,15v18h-2V15H36z M40,15v18h-2V15H40z M44,15v18h-2V15H44z M44,35v2H30v-2H44z M32,33h-2V15h2V33z     M40,44h-6c-2.2,0-4-1.8-4-4v-1h14v1C44,42.2,42.2,44,40,44z M37,5.6l5.9,7.4H31.1L37,5.6z" />
+
+</g>
+
+</g>
+
+</svg><span class="service-number">02</span><h3>Изготовим</h3><p>От небольшого арт-объекта<br>до целой сценической вселенной.</p></article>
+        <article class="service reveal service-pink"><svg fill="currentColor" viewBox="0 0 32 32" class="service-icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M 5.25 2.75 L 4.6875 3.28125 L 3.28125 4.6875 L 2.75 5.25 L 3.15625 5.90625 L 5.25 9.40625 L 5.53125 9.90625 L 8.46875 9.90625 L 12.46875 13.875 C 8.894531 17.464844 4.347656 22.027344 4.1875 22.1875 C 2.621094 23.753906 2.617188 26.320313 4.21875 27.8125 C 5.78125 29.355469 8.328125 29.394531 9.8125 27.8125 C 9.824219 27.800781 9.832031 27.792969 9.84375 27.78125 L 16 21.59375 L 22.1875 27.8125 L 22.28125 27.875 C 23.851563 29.355469 26.347656 29.375 27.8125 27.8125 L 27.8125 27.78125 L 27.84375 27.78125 C 29.375 26.214844 29.390625 23.667969 27.8125 22.1875 L 27.78125 22.15625 L 22.5625 16.96875 C 26.074219 16.640625 28.824219 13.675781 28.875 10.09375 L 28.90625 10.09375 C 28.910156 10.074219 28.90625 10.050781 28.90625 10.03125 C 28.90625 10.019531 28.90625 10.011719 28.90625 10 C 29.003906 8.84375 28.753906 7.738281 28.15625 6.78125 L 27.46875 5.71875 L 22.8125 10.375 L 21.40625 8.90625 L 26.15625 4.15625 L 24.78125 3.59375 C 23.976563 3.25 23.046875 3 22 3 C 18.15625 3 15 6.15625 15 10 C 15 10.417969 15.089844 10.78125 15.15625 11.15625 C 14.71875 11.59375 14.390625 11.953125 13.875 12.46875 L 9.90625 8.5 L 9.90625 5.53125 L 9.40625 5.25 L 5.90625 3.15625 Z M 22 5 C 22.140625 5 22.238281 5.082031 22.375 5.09375 L 18.59375 8.875 L 19.28125 9.59375 L 22.09375 12.5 L 22.78125 13.21875 L 26.75 9.25 C 26.769531 9.480469 26.933594 9.648438 26.90625 9.90625 L 26.90625 10 C 26.90625 12.753906 24.660156 15 21.90625 15 C 21.539063 15 21.09375 14.914063 20.59375 14.8125 L 20.0625 14.71875 L 19.6875 15.09375 L 8.40625 26.40625 L 8.375 26.40625 L 8.375 26.4375 C 7.664063 27.214844 6.421875 27.234375 5.59375 26.40625 L 5.59375 26.375 L 5.5625 26.375 C 4.785156 25.664063 4.765625 24.421875 5.59375 23.59375 C 5.972656 23.214844 13.3125 15.8125 16.90625 12.21875 L 17.3125 11.8125 L 17.15625 11.25 C 17.074219 10.925781 17 10.367188 17 10 C 17 7.246094 19.246094 5 22 5 Z M 5.5625 5.25 L 7.90625 6.6875 L 7.90625 7.6875 L 7.6875 7.90625 L 6.6875 7.90625 L 5.25 5.5625 Z M 20.1875 17.40625 L 26.40625 23.59375 L 26.40625 23.625 L 26.4375 23.625 C 27.214844 24.335938 27.234375 25.578125 26.40625 26.40625 L 26.375 26.40625 L 26.375 26.4375 C 25.664063 27.214844 24.421875 27.234375 23.59375 26.40625 L 17.40625 20.1875 Z" /></svg><span class="service-number">03</span><h3>Соберём. Разберём.</h3><p>Монтаж, обслуживание, демонтаж.<br>Мы рядом на каждом этапе.</p></article>
       </div>
     </section>
     <section id="projects" class="projects wrap">
       <div class="section-heading"><p class="eyebrow">02 / МЕНЬШЕ СЛОВ, БОЛЬШЕ ДЕЛА</p><span class="handwritten">всё настоящее, всё наше ↙</span></div>
-      <div class="projects-title"><h2>Вот что мы <span>натворили.</span></h2><span class="project-count">40 фотографий<br>из нашей жизни</span></div>
+      <div class="projects-title"><h2>Вот что мы <span>натворили.</span></h2><span class="project-count"><span id="photo-count">40 фотографий</span><br>из нашей жизни</span></div>
       <div class="filters" role="group" aria-label="Категории работ"></div>
       <p class="gallery-status visually-hidden" aria-live="polite" aria-atomic="true"></p>
       <div class="gallery" id="gallery"></div>
       <noscript><p>Для фильтрации и просмотра всей галереи включите JavaScript. Несколько наших работ:</p><div class="gallery"><img src="assets/photos/12-small.webp" alt="Декорация съёмочной площадки"><img src="assets/photos/33-small.webp" alt="Декорации шоу"><img src="assets/photos/30-small.webp" alt="Оформление фестиваля"></div></noscript>
-      <button class="button load-more" type="button">Ещё немного магии <span aria-hidden="true">＋</span></button>
+      <button class="button load-more" type="button" hidden>Ещё немного магии <span aria-hidden="true">＋</span></button>
     </section>
-    <section class="contact-section" id="contact"><div class="contact wrap"><div><p class="eyebrow">03 / ХОРОШИЕ ИДЕИ НАЧИНАЮТСЯ С «ПРИВЕТ»</p><h2>Есть безумная идея?<br><span>Нам уже нравится.</span></h2><p>Расскажите, что задумали. Вместе разберёмся,<br class="desktop-break"> как это придумать, построить и поставить.</p><button class="button button-dark" id="contact-open" type="button">Давайте знакомиться <span aria-hidden="true">↗</span></button><p class="contact-placeholder">Контакты скоро появятся. Пока здесь заглушка.</p></div><div class="contact-toy" aria-hidden="true"><div class="toy-top"><i></i><i></i></div><div class="toy-bottom">ПРИВЕТ<span>☺</span></div><span class="toy-star">✳</span></div></div></section>
+    <section class="contact-section" id="contact"><div class="contact wrap"><div><p class="eyebrow">03 / ХОРОШИЕ ИДЕИ НАЧИНАЮТСЯ С «ПРИВЕТ»</p><h2>Есть безумная идея?<br><span>Нам уже нравится.</span></h2><p>Расскажите, что задумали. Вместе разберёмся,<br class="desktop-break"> как это придумать, построить и поставить.</p><div class="social-links">
+        <a class="button button-dark social-link" href="#contact-details" data-social="Telegram" aria-label="Telegram — контакт скоро появится"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 3-4 18-6-5-4 3 1-6 10-7-12 6-4-2Z"/></svg>Telegram <span aria-hidden="true">↗</span></a>
+        <a class="button social-link" href="#contact-details" data-social="Instagram" aria-label="Instagram — контакт скоро появится"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".7"/></svg>Instagram <span aria-hidden="true">↗</span></a>
+      </div><p class="contact-placeholder" id="contact-details">Ссылки пока демонстрационные. Скоро здесь будут наши профили.</p></div><div class="contact-mascot reveal"><div class="mascot-sticker"><img src="assets/brand/logo-large.webp" alt="Наш многорукий мастер с инструментами" width="480" height="480" loading="lazy" decoding="async"></div><span class="mascot-label">РУК ХВАТИТ НА ВСЁ.</span><span class="mascot-star" aria-hidden="true">✳</span></div></div></section>
   </main>
-  <footer class="footer wrap"><a class="logo" href="#"><span class="logo-symbol" aria-hidden="true">✳</span>дИАБЕТаРТгуу</a><span>Делаем сложное. С удовольствием.</span><a href="#">Наверх ↑</a></footer>
-  <dialog class="lightbox" aria-label="Просмотр фотографий"><button class="lightbox-close icon-button" aria-label="Закрыть просмотр">✕</button><div class="lightbox-stage"><button class="lightbox-prev icon-button" aria-label="Предыдущая фотография">←</button><img class="lightbox-image" alt=""><button class="lightbox-next icon-button" aria-label="Следующая фотография">→</button></div><div class="lightbox-caption" aria-live="polite"></div></dialog>
-  <dialog class="contact-dialog"><button class="contact-close icon-button" aria-label="Закрыть">✕</button><span class="dialog-flower" aria-hidden="true">✳</span><h2>Скоро будем на связи!</h2><p>Здесь появятся телефон, почта и мессенджер нашей мастерской. Пока контакты не добавлены.</p><button class="button button-dark contact-ok">Понятно <span aria-hidden="true">↗</span></button></dialog>
+  <footer class="footer wrap"><a class="logo" href="#"><img class="logo-symbol" src="assets/brand/logo-small.webp" alt="" width="64" height="64">Какое-то медиа</a><span>Делаем сложное. С удовольствием.</span><a href="#">Наверх ↑</a></footer>
+  <dialog class="lightbox" aria-label="Просмотр фотографий" aria-describedby="photo-caption"><button class="lightbox-close icon-button" aria-label="Закрыть просмотр">✕</button><div class="lightbox-stage"><button class="lightbox-prev icon-button" aria-label="Предыдущая фотография">←</button><img class="lightbox-image" alt=""><button class="lightbox-next icon-button" aria-label="Следующая фотография">→</button></div><div class="lightbox-caption" id="photo-caption" aria-live="polite"></div></dialog>
+  <dialog class="contact-dialog" aria-labelledby="contact-dialog-title" aria-describedby="contact-dialog-description"><button class="contact-close icon-button" aria-label="Закрыть">✕</button><span class="dialog-flower" aria-hidden="true">✳</span><h2 id="contact-dialog-title">Скоро будем на связи!</h2><p id="contact-dialog-description">Здесь появится ссылка на наш профиль. Пока контакты не добавлены.</p><button class="button button-dark contact-ok">Понятно <span aria-hidden="true">↗</span></button></dialog>
 </body>
 </html>

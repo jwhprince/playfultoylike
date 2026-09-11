@@ -1,0 +1,239 @@
+{
+  "viewports": [
+    {
+      "theme": "light",
+      "width": 320,
+      "client": 305,
+      "scroll": 305,
+      "broken": [],
+      "smallTargets": []
+    },
+    {
+      "theme": "light",
+      "width": 375,
+      "client": 360,
+      "scroll": 360,
+      "broken": [],
+      "smallTargets": []
+    },
+    {
+      "theme": "light",
+      "width": 414,
+      "client": 399,
+      "scroll": 399,
+      "broken": [],
+      "smallTargets": []
+    },
+    {
+      "theme": "light",
+      "width": 640,
+      "client": 625,
+      "scroll": 625,
+      "broken": [],
+      "smallTargets": []
+    },
+    {
+      "theme": "light",
+      "width": 768,
+      "client": 753,
+      "scroll": 753,
+      "broken": [],
+      "smallTargets": []
+    },
+    {
+      "theme": "light",
+      "width": 1024,
+      "client": 1009,
+      "scroll": 1009,
+      "broken": [],
+      "smallTargets": []
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "client": 1425,
+      "scroll": 1425,
+      "broken": [],
+      "smallTargets": []
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "client": 305,
+      "scroll": 305,
+      "broken": [],
+      "smallTargets": []
+    },
+    {
+      "theme": "dark",
+      "width": 375,
+      "client": 360,
+      "scroll": 360,
+      "broken": [],
+      "smallTargets": []
+    },
+    {
+      "theme": "dark",
+      "width": 414,
+      "client": 399,
+      "scroll": 399,
+      "broken": [],
+      "smallTargets": []
+    },
+    {
+      "theme": "dark",
+      "width": 640,
+      "client": 625,
+      "scroll": 625,
+      "broken": [],
+      "smallTargets": []
+    },
+    {
+      "theme": "dark",
+      "width": 768,
+      "client": 753,
+      "scroll": 753,
+      "broken": [],
+      "smallTargets": []
+    },
+    {
+      "theme": "dark",
+      "width": 1024,
+      "client": 1009,
+      "scroll": 1009,
+      "broken": [],
+      "smallTargets": []
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "client": 1425,
+      "scroll": 1425,
+      "broken": [],
+      "smallTargets": []
+    }
+  ],
+  "contrast": {
+    "light": [],
+    "dark": []
+  },
+  "checks": [
+    "swipes ignore vertical scrolling",
+    "storage disabled fallback",
+    "40 photos, 6 categories",
+    "light/dark at 7 widths",
+    "theme persistence and OS preference",
+    "modal arrows, wrapping, Escape, focus restoration",
+    "Telegram/Instagram placeholders",
+    "seamless ticker, pause, reduced motion"
+  ],
+  "performance": {
+    "metrics": {
+      "lcp": 2820,
+      "cls": 0.008643025750046848
+    },
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8080/theme.js",
+        "bytes": 769,
+        "duration": 188
+      },
+      {
+        "name": "http://127.0.0.1:8080/assets/fonts/display.woff2",
+        "bytes": 23256,
+        "duration": 668.4000000022352
+      },
+      {
+        "name": "http://127.0.0.1:8080/style.css",
+        "bytes": 22676,
+        "duration": 653.5
+      },
+      {
+        "name": "http://127.0.0.1:8080/assets/gallery.js",
+        "bytes": 8175,
+        "duration": 414.80000000074506
+      },
+      {
+        "name": "http://127.0.0.1:8080/app.js",
+        "bytes": 11056,
+        "duration": 503.3999999985099
+      },
+      {
+        "name": "http://127.0.0.1:8080/assets/brand/logo-small.webp",
+        "bytes": 9594,
+        "duration": 437.5
+      },
+      {
+        "name": "http://127.0.0.1:8080/assets/photos/33-small.webp",
+        "bytes": 59180,
+        "duration": 1035.4000000022352
+      },
+      {
+        "name": "http://127.0.0.1:8080/assets/photos/07-small.webp",
+        "bytes": 50462,
+        "duration": 1071.5
+      },
+      {
+        "name": "http://127.0.0.1:8080/assets/fonts/body.woff2",
+        "bytes": 37120,
+        "duration": 451.20000000298023
+      },
+      {
+        "name": "http://127.0.0.1:8080/assets/brand/favicon.png",
+        "bytes": 7202,
+        "duration": 195.69999999925494
+      }
+    ],
+    "navigation": {
+      "name": "http://127.0.0.1:8080/",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 2570.5,
+      "navigationId": 6423,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.0",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 4.199999999254942,
+      "domainLookupStart": 4.199999999254942,
+      "domainLookupEnd": 4.199999999254942,
+      "connectStart": 4.199999999254942,
+      "secureConnectionStart": 0,
+      "connectEnd": 4.199999999254942,
+      "requestStart": 14,
+      "responseStart": 16.900000002235174,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 16.900000002235174,
+      "responseEnd": 224.90000000223517,
+      "transferSize": 12009,
+      "encodedBodySize": 11709,
+      "decodedBodySize": 11709,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 238.60000000149012,
+      "unloadEventEnd": 238.60000000149012,
+      "domInteractive": 852.4000000022352,
+      "domContentLoadedEventStart": 1449.6000000014901,
+      "domContentLoadedEventEnd": 1452.1000000014901,
+      "domComplete": 2570.300000000745,
+      "loadEventStart": 2570.400000002235,
+      "loadEventEnd": 2570.5,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {}
+    }
+  },
+  "errors": []
+}

@@ -5,7 +5,7 @@ import json
 root = Path(__file__).resolve().parent.parent
 out = root / 'assets' / 'photos'
 out.mkdir(parents=True, exist_ok=True)
-files = sorted(p for p in (root / 'public/images').rglob('*') if p.suffix.lower() in ('.jpg', '.jpeg', '.png'))
+files = sorted(p for p in (root / 'public/images').rglob('*') if p.parent != root / 'public/images' and p.suffix.lower() in ('.jpg', '.jpeg', '.png'))
 photos = []
 for i, path in enumerate(files):
     with Image.open(path) as source:
